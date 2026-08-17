@@ -1,75 +1,57 @@
+<div align="center">
+
+<!-- Material / Stripe Style Header Banner -->
 <p align="center">
-  <img src="https://vercel.app" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E17,50:161B26,100:6366F1&height=220&section=header&text=PyEngine%20Architect&fontSize=48&fontColor=F3F4F6&animation=twinkling" width="100%" alt="PyEngine Architect Banner" />
+</p>
+
+<!-- Dynamic Typing SVG -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=6366F1&center=true&vCenter=true&width=650&height=70&lines=🏛️+PyEngine+-+Architect+v1.0.0;Refactor+Monolithic+Scripts+to+Production-Ready;Automated+AST+%26+Regex+Code+Splitting;GNU+GPL+v3+Open+Source+Architecture" alt="Typing SVG" />
+
+<p align="center">
+  <b>An advanced refactoring engine designed to transform monolithic, single-file Python scripts into modular, production-ready architectures.</b>
+</p>
+
+<!-- Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-v1.0.0-6366F1?style=for-the-badge&logo=python&logoColor=white" alt="Version" />
+  <img src="https://img.shields.io/badge/Author-LinguaBuddy-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Author" />
+  <img src="https://img.shields.io/badge/UI-CustomTkinter-161B26?style=for-the-badge&logo=google&logoColor=F3F4F6" alt="UI" />
+  <img src="https://img.shields.io/badge/License-GNU_GPL_v3-EF4444?style=for-the-badge&logo=gnu&logoColor=white" alt="License" />
+  <img src="https://img.shields.io/badge/Platform-Windows_%7C_Linux_%7C_macOS-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Platform" />
 </p>
 
 <p align="center">
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
+  <a href="#-quick-start">Quick Start</a> •
+  <a href="#-architectural-workflow">Architectural Workflow</a> •
+  <a href="#-key-features">Key Features</a> •
+  <a href="#-license">License</a>
 </p>
 
----
-
-### 🏛️ Operational Philosophy
-
-`PyEngine-Architect` is an enterprise-grade architectural automation engine designed to eliminate technical debt in monolithic Python applications. Engineered and maintained by **LinguaBuddy**, the system analyzes and refactors single-file scripts into clean, decoupled, and production-ready open-source ecosystems.
-
-By enforcing strict **Separation of Concerns (SoC)**, the engine isolates configurations, backend business logic, and user interface layers into specialized modules, optimizing your codebase for collaborative engineering.
+</div>
 
 ---
 
-### 💎 Architectural Advantages
+## ⚡ Key Features
 
-- **Automated Monolith Deconstruction:** Safely extracts discrete operational layers without compromising run-time state integrity.
-- **Strict Decoupling Engine:** Automatically orchestrates core assets into independent files: `config.py` (environmental state), `player.py` (business logic), and `main.py` (bootstrap orchestrator).
-- **Production Standard Boilerplates:** Automatically maps third-party manifests into an optimized `requirements.txt` and generates compliant documentation structures.
-- **Zero-Dependency Native Runtime:** Built entirely on standard Python libraries, eliminating supply-chain vulnerabilities and external overhead.
-
----
-
-### ⚙️ System Deployment
-
-#### 1. Environment Initialization
-Clone the production branch into your local deployment environment:
-```bash
-git clone https://github.com
-cd PyEngine-Architect
-```
-
-#### 2. Execution Phase
-Trigger the structural parsing pipeline via the native runtime:
-```bash
-python architect.py
-```
-
-#### 3. Core Refactoring Input
-Provide the absolute target pathway of your monolithic file when prompted by the secure CLI interface:
-```text
-[PyEngine] Enter the target absolute path of the monolithic script: C:\production\monolith.py
-```
-The engine will instantly compile and deploy a clean `target_architect_build` directory layout adjacent to your source asset.
+| Feature | Description |
+| :--- | :--- |
+| 🏛️ **Automated Code Splitting** | Detects constants, configuration parameters, and UI logic inside monolithic scripts, separating them into clean, independent modules. |
+| 🎨 **Stripe / Apple Style UI** | Elegant dark-mode interface built with CustomTkinter, styled in deep navy and vibrant indigo tones. |
+| ⚙️ **Modular Output Builder** | Automatically constructs `config.py`, `player.py`, `main.py`, and `requirements.txt` for the target project. |
+| 🛡️ **Fault-Tolerant Engine** | Features built-in file verification, encoding checks, and regex parsing for safe execution. |
+| 📜 **GNU GPL v3 Compliant** | Injects legal GPL v3 headers and author credits into all generated sub-modules automatically. |
 
 ---
 
-### 📂 Structural Topography Blueprint
+## 🏗️ Architectural Workflow
 
-The refactoring pipeline transforms monolithic scripts into the following standardized layout:
+`PyEngine Architect` performs static code analysis and regex parsing on the target monolithic script to deploy a structured `target_architect_build` directory:
 
 ```text
 target_architect_build/
-├── config.py         # Centralized constants, palettes, and global properties
-├── player.py         # Isolated business logic, threads, and service workers
-├── main.py           # Application lifecycle controller and UI state machine
-├── requirements.txt  # Consolidated dependency manifests
-└── README.md         # Auto-generated project ecosystem documentation
-```
-
----
-
-### ⚖️ Open-Source Charter
-
-This infrastructure is officially registered under the **GNU GPL v3** license. This legal framework guarantees that the core architecture and any derivative works remain permanently free, open-source, and copyleft-protected for the global developer collective.
-
-<p align="right">
-  <i>Engineered with precision by <b>LinguaBuddy</b></i>
-</p>
+│
+├── 📄 config.py         # Color palettes, channel lists, and global environment constants
+├── 🧠 player.py         # PyAV / Video decoding engine and background worker thread
+├── 🚀 main.py           # Refactored entry point and UI lifecycle management
+└── 📦 requirements.txt   # Automatically generated dependency manifest
