@@ -10,66 +10,66 @@
 
 ---
 
-## 🏛️ Executive Summary
+### 🏛️ Operational Philosophy
 
-`PyEngine-Architect` is a premium, high-performance architectural automation engine meticulously engineered to eliminate monolithic technical debt in Python development. Conceptualized and maintained by **LinguaBuddy**, the system seamlessly parses, refactors, and orchestrates single-file legacy scripts into highly decoupled, enterprise-compliant open-source ecosystems.
+`PyEngine-Architect` is an enterprise-grade architectural automation engine designed to eliminate technical debt in monolithic Python applications. Engineered and maintained by **LinguaBuddy**, the system analyzes and refactors single-file scripts into clean, decoupled, and production-ready open-source ecosystems.
 
-By enforcing strict separation of concerns (SoC), the engine automatically isolates global state configurations, background service workers, and user interface layers into professional, specialized modules.
-
----
-
-## 💎 Architecture Features
-
-* **Automated Refactoring:** Analyzes complex single-file source codes to extract layers without breaking run-time state integrity.
-* **Strict Decoupling Engine:** Dynamically generates independent modules: `config.py` (constants), `player.py` (logic), and `main.py` (orchestrator).
-* **Zero-Dependency Core:** Runs natively on pure Python runtimes via the CLI, ensuring clean portability across environments.
-* **Open Source Freedom:** Backed by copyleft protection, ensuring the generated framework remains permanently community-driven.
+By enforcing strict **Separation of Concerns (SoC)**, the engine isolates configurations, backend business logic, and user interface layers into specialized modules, optimizing your codebase for collaborative engineering.
 
 ---
 
-## ⚙️ Deployment & Guide
+### 💎 Architectural Advantages
 
-### 1. Initialize Repository
-Clone the production branch directly into your local workspace:
+- **Automated Monolith Deconstruction:** Safely extracts discrete operational layers without compromising run-time state integrity.
+- **Strict Decoupling Engine:** Automatically orchestrates core assets into independent files: `config.py` (environmental state), `player.py` (business logic), and `main.py` (bootstrap orchestrator).
+- **Production Standard Boilerplates:** Automatically maps third-party manifests into an optimized `requirements.txt` and generates compliant documentation structures.
+- **Zero-Dependency Native Runtime:** Built entirely on standard Python libraries, eliminating supply-chain vulnerabilities and external overhead.
+
+---
+
+### ⚙️ System Deployment
+
+#### 1. Environment Initialization
+Clone the production branch into your local deployment environment:
 ```bash
 git clone https://github.com
 cd PyEngine-Architect
 ```
 
-### 2. Execution Sequence
-Trigger the compilation and modularization sequence by running the core engine:
+#### 2. Execution Phase
+Trigger the structural parsing pipeline via the native runtime:
 ```bash
 python architect.py
 ```
 
-### 3. Input Target
-Provide the absolute path of your monolithic script when prompted by the secure CLI:
+#### 3. Core Refactoring Input
+Provide the absolute target pathway of your monolithic file when prompted by the secure CLI interface:
 ```text
-[PyEngine] Enter the target absolute path of the monolithic script: C:\apps\monolith.py
+[PyEngine] Enter the target absolute path of the monolithic script: C:\production\monolith.py
 ```
-The system will instantly compile a clean directory structure (`target_architect_build`) adjacent to your source file.
+The engine will instantly compile and deploy a clean `target_architect_build` directory layout adjacent to your source asset.
 
 ---
 
-## 📂 Structural Blueprint
+### 📂 Structural Topography Blueprint
 
-The automation pipeline transforms your codebase into a clean, distributed layout:
+The refactoring pipeline transforms monolithic scripts into the following standardized layout:
 
 ```text
 target_architect_build/
-├── config.py         # Environmental parameters and constants
-├── player.py         # Functional background logic and workers
-├── main.py           # Application bootstrap and UI controllers
-├── requirements.txt  # Package dependency manifest
-└── README.md         # Auto-generated project documentation
+├── config.py         # Centralized constants, palettes, and global properties
+├── player.py         # Isolated business logic, threads, and service workers
+├── main.py           # Application lifecycle controller and UI state machine
+├── requirements.txt  # Consolidated dependency manifests
+└── README.md         # Auto-generated project ecosystem documentation
 ```
 
 ---
 
-## ⚖️ License
+### ⚖️ Open-Source Charter
 
-This project is officially licensed under the **GNU GPL v3** - ensuring the codebase remains permanently free and open-source for the global developer community. 
+This infrastructure is officially registered under the **GNU GPL v3** license. This legal framework guarantees that the core architecture and any derivative works remain permanently free, open-source, and copyleft-protected for the global developer collective.
 
 <p align="right">
-  <i>Developed and engineered by <b>LinguaBuddy</b></i>
+  <i>Engineered with precision by <b>LinguaBuddy</b></i>
 </p>
